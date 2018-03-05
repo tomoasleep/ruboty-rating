@@ -4,7 +4,7 @@ module Ruboty
       class DeletePlayer < Base
         def call
           ratings.delete(player)
-          message.reply("Removed #{player}")
+          message.reply("Deleted #{player}")
         end
 
         private

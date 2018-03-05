@@ -49,8 +49,8 @@ module Ruboty
         Ruboty::Rating::Actions::SetRating.new(message).call
       end
 
-      def set_rating(message)
-        Ruboty::Rating::Actions::SetRating.new(message).call
+      def delete_player(message)
+        Ruboty::Rating::Actions::DeletePlayer.new(message).call
       end
     end
   end
